@@ -5,8 +5,8 @@ spring:
     name: CONFIGCLIENT
   cloud:
     consul:
-      host: localhost
-      port: 8500
+      # host: localhost
+      # port: 8500
       discovery:
         service-name: ${spring.application.name}
   # 配置指定环境
